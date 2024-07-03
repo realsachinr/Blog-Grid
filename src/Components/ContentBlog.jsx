@@ -112,7 +112,7 @@ function ContentBlog() {
         {currentData.length > 0 ? (
           <Template search={currentData} />
         ) : (
-          <div className="text-center pt-16 font-bold text-red-500">
+          <div className="text-center bg-[#D3E3FD] h-[35.5rem] pt-16 font-bold text-red-500">
             No Records Found
           </div>
         )}
